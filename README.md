@@ -1,7 +1,7 @@
 # Rust Port Scanner
 
 ## 简介
-这个项目是一个使用Rust语言编写的多线程端口扫描器。它旨在作为一个学习工具，帮助理解Rust中的网络编程、多线程处理和命令行参数解析。这个扫描器可以对指定IP地址进行端口扫描，以确定哪些端口是开放的。
+这个项目是一个使用Rust语言编写的多线程端口扫描器。作为一个学习rust基础的工具编写，帮助理解Rust中的网络编程、多线程处理和命令行参数解析。
 
 ## 功能
 - **多线程扫描**: 使用多线程并发扫描端口，提高扫描效率。
@@ -14,7 +14,7 @@
 
 ### 克隆与编译
 ```bash
-git clone https://github.com/your-repository/rust-port-scanner.git
+git clone https://github.com/Zhoany/rust-port-scanner.git
 cd rust-port-scanner
 cargo build --release
 ```
