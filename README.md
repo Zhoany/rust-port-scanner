@@ -21,5 +21,9 @@ cargo build --release
 
 ### 使用方法
 ```bash
-rust-port-scanner [IP地址] [-j 线程数]
+rust-port-scanner [-j 线程数] [IP地址]
+```
+### 示例
+```bash
+rust-port-scanner -j 2000 192.168.1.1
 ```
